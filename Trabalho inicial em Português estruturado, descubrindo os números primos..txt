@@ -2,8 +2,8 @@
 ///	
 ///		TRABALHO MISSAO PRATICA NIVEL 1
 ///		ALUNO: NELSON CARVALHO
-///	
-///	
+///	  SOFTWARE: Portugol Studio
+///	  Lógica da programação
 ///
 
 programa{
