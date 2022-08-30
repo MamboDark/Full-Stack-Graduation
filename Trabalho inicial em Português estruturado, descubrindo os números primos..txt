@@ -1,0 +1,43 @@
+///////////////////////////////////////////////////////////////////////////////////////
+///														///
+///		TRABALHO MISSAO PRATICA NIVEL 1							///
+///		ALUNO: NELSON CARVALHO									///
+///														///
+///														///
+///////////////////////////////////////////////////////////////////////////////////////
+
+programa{
+
+  funcao logico primo(inteiro numero)
+  {
+    inteiro div1
+      
+    para(div1 = 2; div1 <= numero-1; div1++ ) {
+        se(numero % div1 == 0) {
+            retorne falso
+        }
+    }
+    
+    retorne verdadeiro
+  }
+
+  funcao inicio()
+  {
+    
+    inteiro num, n, divisores, resultado = 0
+
+ 
+   escreva ("Digite um número:")
+   leia(n)
+
+    	
+    para(num = 2; num <= n; num++) {
+        se(primo(num)){
+            escreva("O número ",num , " é primo \n")
+            resultado = resultado + num
+        }
+    }
+    
+    escreva ("A soma de todos os números primos menores e iguais a ", n, " é: ", resultado)
+  }
+}
