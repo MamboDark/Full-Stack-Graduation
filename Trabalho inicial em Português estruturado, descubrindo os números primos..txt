@@ -3,6 +3,7 @@
 /// SOFTWARE: Portugol Studio
 /// Lógica da programação
 
+
 programa{
 
   funcao logico primo(inteiro numero)
@@ -33,6 +34,8 @@ programa{
             escreva("O número ",num , " é primo \n")
             resultado = resultado + num
         }
+        
+        
     }
     
     escreva ("A soma de todos os números primos menores e iguais a ", n, " é: ", resultado)
